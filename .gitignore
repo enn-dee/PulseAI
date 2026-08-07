@@ -1,0 +1,112 @@
+# =========================
+# IDE
+# =========================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse / STS
+.project
+.classpath
+.settings/
+.factorypath
+
+# NetBeans
+nbproject/
+nbbuild/
+dist/
+nbdist/
+
+# =========================
+# Java
+# =========================
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.ear
+
+# =========================
+# Maven
+# =========================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Maven Wrapper (keep these!)
+!.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+!mvnw
+!mvnw.cmd
+
+# =========================
+# Gradle
+# =========================
+.gradle/
+build/
+
+# Keep Gradle wrapper
+!gradle/wrapper/gradle-wrapper.jar
+!gradlew
+!gradlew.bat
+
+# =========================
+# Spring Boot
+# =========================
+logs/
+*.log
+*.pid
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment
+# =========================
+.env
+.env.*
+!.env.example
+
+# Secrets
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+
+# =========================
+# Temporary Files
+# =========================
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*~
+
+# =========================
+# Test Output
+# =========================
+coverage/
+reports/
+
+# =========================
+# Node (if frontend exists)
+# =========================
+node_modules/
+dist/
+
+# =========================
+# Docker
+# =========================
+docker-data/
