@@ -20,6 +20,12 @@ public class UserController {
         return ResponseEntity.ok(userService.getUserProfile(userId));
     }
 
+//    meth to be called by activity service.
+    @GetMapping("/{userId}/validate")
+    public ResponseEntity<Boolean> validateUser(@PathVariable String userId) {
+        return ResponseEntity.ok(userService.validateUser(userId));
+    }
+
     @PostMapping("/register")
     public ResponseEntity<UserResponse> register(@Valid @RequestBody RegisterRequest request) {
 
